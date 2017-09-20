@@ -4,6 +4,11 @@ import PropTypes from 'prop-types';
 import enhancer from './enhancer';
 import { propTypes, defaultProps } from './types';
 
+/**
+ *  @name Line
+ *  @example
+ *  <Line percent="10" strokeWidth="4" strokeColor="#D3D3D3" />
+ */
 class Circle extends Component {
   getPathStyles() {
     const { percent, strokeWidth, gapDegree = 0, gapPosition } = this.props;
